@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "all_services",
+  "info": {
+    "singularName": "our-services",
+    "pluralName": "all-services",
+    "displayName": "OurServices"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "text"
+    }
+  }
+}

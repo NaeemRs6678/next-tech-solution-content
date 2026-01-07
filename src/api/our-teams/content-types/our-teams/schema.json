@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_all_teams",
+  "info": {
+    "singularName": "our-teams",
+    "pluralName": "our-all-teams",
+    "displayName": "OurTeams"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "twitterLink": {
+      "type": "text"
+    },
+    "linkedinLink": {
+      "type": "text"
+    },
+    "githubLink": {
+      "type": "text"
+    },
+    "facebookLink": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "heroes",
+  "info": {
+    "singularName": "hero",
+    "pluralName": "heroes",
+    "displayName": "HERO"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "discription": {
+      "type": "text"
+    },
+    "ProjectsCompleted": {
+      "type": "biginteger"
+    },
+    "ClientSatisfaction": {
+      "type": "biginteger"
+    }
+  }
+}

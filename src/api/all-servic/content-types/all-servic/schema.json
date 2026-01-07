@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "get_services",
+  "info": {
+    "singularName": "all-servic",
+    "pluralName": "get-services",
+    "displayName": "portfolios"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "text"
+    },
+    "badge": {
+      "type": "enumeration",
+      "enum": [
+        "Web Development",
+        "Mobile App"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description2": {
+      "type": "text"
+    },
+    "badge2": {
+      "type": "enumeration",
+      "enum": [
+        "Flutter",
+        "React"
+      ]
+    },
+    "badge3": {
+      "type": "enumeration",
+      "enum": [
+        "Mobile",
+        "Node.js"
+      ]
+    },
+    "projectUrl": {
+      "type": "text"
+    }
+  }
+}
