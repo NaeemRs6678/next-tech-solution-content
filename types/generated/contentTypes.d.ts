@@ -682,12 +682,16 @@ export interface ApiContactUsContactUs extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    address: Schema.Attribute.String;
     contactNumber: Schema.Attribute.BigInteger;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     description: Schema.Attribute.Text;
     email: Schema.Attribute.Email;
+    facebookLink: Schema.Attribute.String;
+    githubLink: Schema.Attribute.String;
+    linkedinLink: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -695,9 +699,11 @@ export interface ApiContactUsContactUs extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    twitterLink: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    youTubeLink: Schema.Attribute.String;
   };
 }
 

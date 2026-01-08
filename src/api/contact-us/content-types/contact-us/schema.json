@@ -19,6 +19,24 @@
     },
     "email": {
       "type": "email"
+    },
+    "youTubeLink": {
+      "type": "string"
+    },
+    "facebookLink": {
+      "type": "string"
+    },
+    "linkedinLink": {
+      "type": "string"
+    },
+    "twitterLink": {
+      "type": "string"
+    },
+    "githubLink": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
     }
   }
 }
